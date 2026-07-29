@@ -139,3 +139,23 @@ footer{
 #prices p:last-child{
     border-bottom:none;
 }
+
+#hair-prices{
+    background:#fff8fb;
+    padding:40px 20px;
+}
+
+#hair-prices .card{
+    max-width:450px;
+    margin:auto;
+}
+
+#hair-prices p{
+    font-size:18px;
+    padding:10px 0;
+    border-bottom:1px solid #f2c7d8;
+}
+
+#hair-prices p:last-child{
+    border-bottom:none;
+}
