@@ -119,3 +119,23 @@ footer{
 #contact a:hover{
     background:#C13584;
 }
+
+#prices{
+    background:#fff8fb;
+    padding:40px 20px;
+}
+
+#prices .card{
+    max-width:450px;
+    margin:auto;
+}
+
+#prices p{
+    font-size:18px;
+    padding:10px 0;
+    border-bottom:1px solid #f2c7d8;
+}
+
+#prices p:last-child{
+    border-bottom:none;
+}
