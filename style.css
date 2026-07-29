@@ -27,6 +27,15 @@ nav a{
 section{
     padding:40px 20px;
     text-align:center;
+
+    #reviews{
+    background:#fff0f5;
+    padding:40px 20px;
+}
+
+#reviews .card{
+    max-width:500px;
+}
 }
 
 .card{
