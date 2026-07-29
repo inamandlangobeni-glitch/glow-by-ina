@@ -169,3 +169,17 @@ footer{
 #hair-prices p:last-child{
     border-bottom:none;
 }
+
+.hero-image{
+    margin:20px auto;
+    text-align:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:700px;
+    height:350px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
