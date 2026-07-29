@@ -104,3 +104,18 @@ footer{
 .whatsapp:hover{
     transform:scale(1.1);
 }
+
+#contact a{
+    display:inline-block;
+    background:#E1306C;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:30px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+#contact a:hover{
+    background:#C13584;
+}
