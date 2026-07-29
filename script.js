@@ -19,4 +19,4 @@ let currentImage = 0;
 setInterval(() => {
   currentImage = (currentImage + 1) % images.length;
   document.querySelector(".hero-image img").src = images[currentImage];
-}, 3000);
+}, 1000);
