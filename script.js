@@ -16,7 +16,15 @@ const images = [
 
 let currentImage = 0;
 
+const heroImage = document.querySelector(".hero-image img");
+
 setInterval(() => {
-  currentImage = (currentImage + 1) % images.length;
-  document.querySelector(".hero-image img").src = images[currentImage];
-}, 1000);
+  heroImage.style.opacity = "0";
+
+  setTimeout(() => {
+    currentImage = (currentImage + 1) % images.length;
+    heroImage.src = images[currentImage];
+    heroImage.style.opacity = "1";
+  }, 500);
+
+}, 3000);
