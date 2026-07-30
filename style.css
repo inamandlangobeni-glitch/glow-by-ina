@@ -294,10 +294,36 @@ body.dark-mode textarea{
     border:1px solid #555;
 }
 
-@media (max-width: 768px) {
+/* Mobile Friendly */
+@media screen and (max-width: 768px){
+
+    header{
+        padding:15px;
+        text-align:center;
+    }
+
+    nav{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:8px;
+        margin-top:10px;
+    }
+
+    nav a{
+        display:inline-block;
+        padding:8px 12px;
+        font-size:14px;
+    }
+
+    #darkModeBtn{
+        padding:8px 12px;
+        font-size:14px;
+        margin-top:10px;
+    }
 
     h1{
-        font-size:28px;
+        font-size:32px;
     }
 
     h2{
@@ -308,35 +334,32 @@ body.dark-mode textarea{
         font-size:16px;
     }
 
-    nav{
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        gap:10px;
-    }
-
-    nav a{
-        display:block;
-        width:90%;
-        text-align:center;
-        padding:12px;
-    }
-
-    #darkModeBtn{
-        width:90%;
-    }
-
     .hero-image img{
         width:100%;
         height:auto;
+        border-radius:15px;
+    }
+
+    section{
+        padding:20px 15px;
     }
 
     form{
-        width:95%;
+        width:100%;
         padding:20px;
+        box-sizing:border-box;
     }
 
-    .button{
+    input,
+    select,
+    textarea,
+    button{
         width:100%;
+        box-sizing:border-box;
+    }
+
+    .card{
+        width:100%;
+        margin:15px 0;
     }
 }
