@@ -259,3 +259,37 @@ form .button{
     max-width:500px;
     margin:20px auto;
 }
+
+#darkModeBtn{
+    background:#222;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    margin:10px;
+}
+
+body.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+body.dark-mode section{
+    background:#1e1e1e;
+}
+
+body.dark-mode .card,
+body.dark-mode form{
+    background:#2b2b2b;
+    color:white;
+}
+
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea{
+    background:#333;
+    color:white;
+    border:1px solid #555;
+}
