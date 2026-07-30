@@ -6,16 +6,54 @@ body{
     color:#333;
 }
 
-header{
-    background:linear-gradient(135deg, #ff4f87, #ff85a2);
+.main-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#ff4f87;
     color:white;
-    text-align:center;
-    padding:35px 20px;
+    position:sticky;
+    top:0;
+    z-index:1000;
     box-shadow:0 4px 12px rgba(0,0,0,0.2);
 }
 
-nav{
-    margin-top:15px;
+.logo h1{
+    margin:0;
+    font-size:2rem;
+}
+
+.logo p{
+    margin:5px 0 0;
+    font-size:0.95rem;
+}
+
+.main-header nav{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.main-header nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.main-header nav a:hover{
+    color:#ffe6ef;
+}
+
+#darkModeBtn{
+    background:white;
+    color:#ff4f87;
+    border:none;
+    padding:10px 16px;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:bold;
 }
 
 nav a{
