@@ -5,7 +5,14 @@ body{
     background:#fffafc;
     color:#333;
 }
-
+html,
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    overflow-x:hidden;
+    background:#ff4f87;
+}
 .main-header{
     display:flex;
     justify-content:space-between;
