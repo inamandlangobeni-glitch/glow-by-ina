@@ -34,3 +34,31 @@ window.addEventListener("load", function () {
     document.getElementById("loader").style.display = "none";
   }, 2000);
 });
+
+document.getElementById("bookingForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const name = this.querySelector('input[type="text"]').value;
+    const phone = this.querySelector('input[type="tel"]').value;
+    const service = this.querySelector("select").value;
+    const date = this.querySelector('input[type="date"]').value;
+    const time = this.querySelector('input[type="time"]').value;
+    const notes = this.querySelector("textarea").value;
+
+    const message =
+`Hello Glow by Ina! 🌸
+
+I'd like to book an appointment.
+
+👤 Name: ${name}
+📞 Phone: ${phone}
+💇 Service: ${service}
+📅 Date: ${date}
+⏰ Time: ${time}
+📝 Notes: ${notes}`;
+
+    window.open(
+        `https://wa.me/27718445796?text=${encodeURIComponent(message)}`,
+        "_blank"
+    );
+});
