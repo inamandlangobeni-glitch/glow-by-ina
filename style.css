@@ -217,3 +217,34 @@ footer{
         transform:rotate(360deg);
     }
 }
+
+form{
+    max-width:500px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.15);
+}
+
+form input,
+form select,
+form textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+form textarea{
+    height:120px;
+    resize:vertical;
+}
+
+form .button{
+    width:100%;
+    border:none;
+    cursor:pointer;
+}
