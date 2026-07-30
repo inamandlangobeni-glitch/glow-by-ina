@@ -248,3 +248,14 @@ form .button{
     border:none;
     cursor:pointer;
 }
+
+#ratings{
+    padding:40px 20px;
+    text-align:center;
+    background:#fff5f8;
+}
+
+#ratings .card{
+    max-width:500px;
+    margin:20px auto;
+}
