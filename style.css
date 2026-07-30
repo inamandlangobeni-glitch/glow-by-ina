@@ -186,8 +186,8 @@ footer{
 }
 
 #gallery img{
-    width:180px;
-    height:180px;
+    width:48%;
+    aspect-ratio:1/1;
     object-fit:cover;
     border-radius:15px;
     box-shadow:0 4px 12px rgba(0,0,0,0.2);
@@ -451,8 +451,17 @@ body.dark-mode textarea{
         width:100%;
         margin:15px 0;
     }
+#gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    gap:10px;
 }
 
+#gallery img{
+    width:48%;
+    height:auto;
+}
 .main-header{
     flex-direction:column;
     gap:15px;
